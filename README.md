@@ -1,13 +1,11 @@
 # Methods and VCF files related to Fassel, Chen, Ruise, Kumar, DeSancho and Hajjar (2021). Blood.
 
 The Applied Bioinformatics Core analyzed DNA sequencing data generated after long-range PCR of the AnnexinA2 (ANXA2) gene.
-There were samples from three different groups of patients: 1) healthy patients, 2) patients withthrombosis and normal levels of ANXA2, and 3) patients with thrombosis and low or undetectable levels of ANXA2. Following the Broad Institute’s/GATK best practices, variants were identified, annotated, and manually explored.
+There were 18 samples from three different groups of patients: 
 
-DNA  samples  were  collected  from  18  patients:
-
-* 6  healthy  patients
-* 6  patients  with  thrombosis  and  normal  levels of  ANXA2,  and  
-* 6  patients  with  thrombosis  and  low  or  undetectable  levels  of  ANXA2.
+1) healthy patients
+2) patients with thrombosis and normal levels of ANXA2, and
+3) patients with thrombosis and low or undetectable levels of ANXA2. 
 
 The  ANXA2  gene  is  approximately  60  kb  long,  and  was  isolated  via  long  range  PCR  (with  10  kb  5’  and  1  kb  3’  flanking  regions).
 The resultant isolates were fragmented and subsequently sequenced (single-end, 150 bp) on an Illumina MiSeq Sequencerat Cornell's Genomics Facility in Ithaca, NY.
