@@ -19,17 +19,19 @@ Variants that were identified by all three tools were used for downstream analys
 
 ![](figures/workflow.png)
 
-The `makefile` in `processing/` contains the details of the code.
+The `makefile` in [`processing/`](processing) contains the details of the code.
 
 
 ## Results
+
+The individual VCF files can be found in [`variants/`](variants)
 
  ![](figures/anxa2_locus.pdf)
 
 ANXA2 region that was amplified using long-range PCR and sequenced with high-throughput DNA sequencing.
 From top to bottom: Ideogram of chromosome 15 where the red vertical bar indicates the position of the ANXA2 locus.
 The numbers of overlapping reads (from one randomly chosen sample) for each base pair are summarized as grey vertical bars, followed by a blue heatmap track that represents GC content.
-High GC content (dark blue regions) tend to co-occur with regions of particularly low read coverage, which is a known bias of Illumina-based high-throughput sequencing data \citep{Meyer2014}; also compare with Figure~\ref{fig:geneBody} and Table~\ref{tab:lowCov}).
+High GC content (dark blue regions) tend to co-occur with regions of particularly low read coverage, which is a known bias of Illumina-based high-throughput sequencing data [Meyer2014](https://dx.doi.org/doi:10.1038/nrg3788).
 Transcript models are based on Gencode V23 (hg38); dark blue boxes represent exons, horizontal lines represent introns.
 At the bottom of the figure, some abundant repeat classes are shown (there are no known tRNAs and rRNAs at this locus).
 
