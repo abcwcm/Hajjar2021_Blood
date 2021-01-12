@@ -1,4 +1,4 @@
-# Methods and VCF files related to Fassel, Chen, Ruise, Kumar, DeSancho and Hajjar (2021). Blood
+# Methods and VCF files related to Fassel, Chen, Ruise, Kumar, DeSancho and Hajjar (2021). Blood.
 
 The Applied Bioinformatics Core analyzed DNA sequencing data generated after long-range PCR of the AnnexinA2 (ANXA2) gene.
 There were samples from three different groups of patients: 1) healthy patients, 2) patients withthrombosis and normal levels of ANXA2, and 3) patients with thrombosis and low or undetectable levels of ANXA2. Following the Broad Institute’s/GATK best practices, variants were identified, annotated, and manually explored.
@@ -17,6 +17,8 @@ The goal of the analysis was to determine whether there are genetic variants tha
 For variant calling, the following tools were used: FreeBayesv1.0.2-33, VarScan v2.3.9, and HaplotypeCaller v3.6-0.
 Variants that were identified by all three tools were used for downstream analyses including annotation with SnpEff.
 
+The following figure demonstrates the bioinformatics workflow and tools.
+
 ![](figures/workflow.png)
 
 The `makefile` in [`processing/`](processing) contains the details of the code.
@@ -26,7 +28,7 @@ The `makefile` in [`processing/`](processing) contains the details of the code.
 
 The individual VCF files can be found in [`variants/`](variants)
 
- ![](figures/anxa2_locus.pdf)
+ ![](figures/anxa2_locus.png)
 
 Illustration of the ANXA2 region that was amplified using long-range PCR and sequenced with high-throughput DNA sequencing.
 From top to bottom: Ideogram of chromosome 15 where the red vertical bar indicates the position of the ANXA2 locus.
