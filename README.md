@@ -15,12 +15,29 @@ The resultant isolates were fragmented and subsequently sequenced (single-end, 1
 The goal of the analysis was to determine whether there are genetic variants that are unique to the patients with thrombosis and low ANXA2 levels.
 
 For variant calling, the following tools were used: FreeBayesv1.0.2-33, VarScan v2.3.9, and HaplotypeCaller v3.6-0.
+Variants that were identified by all three tools were used for downstream analyses including annotation with SnpEff.
+
+![](figures/workflow.png)
+
+The `makefile` in `processing/` contains the details of the code.
+
 
 ## Results
 
+ ![](figures/anxa2_locus.pdf)
 
-![](figures/heatmap_homohetero_noclust.png)
+ANXA2 region that was amplified using long-range PCR and sequenced with high-throughput DNA sequencing.
+From top to bottom: Ideogram of chromosome 15 where the red vertical bar indicates the position of the ANXA2 locus.
+The numbers of overlapping reads (from one randomly chosen sample) for each base pair are summarized as grey vertical bars, followed by a blue heatmap track that represents GC content.
+High GC content (dark blue regions) tend to co-occur with regions of particularly low read coverage, which is a known bias of Illumina-based high-throughput sequencing data \citep{Meyer2014}; also compare with Figure~\ref{fig:geneBody} and Table~\ref{tab:lowCov}).
+Transcript models are based on Gencode V23 (hg38); dark blue boxes represent exons, horizontal lines represent introns.
+At the bottom of the figure, some abundant repeat classes are shown (there are no known tRNAs and rRNAs at this locus).
+
+
+![](figures/heatmap_homohetero_noclust-1.png)
 
 Heatmap of genotypes where columns represent single variants, and rows represent the individual samples.
 Light cyan indicates homozygosity for the reference allele, medium cyan heterozygosity, and dark cyan homozygosity for the alternative allele.
 The boxes on the left side mark healthy (green), TL (red) and TN (blue) as well as male (brown) and female (off-white) samples.
+
+There was no obvious sample type specific pattern, i.e., no overrepresentation of homo- or heterozygous variants in either sample group.
