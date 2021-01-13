@@ -51,3 +51,5 @@ There was no obvious sample type specific pattern, i.e., no overrepresentation o
 
 The analyses were performed at the Applied Bioinformatics Core of Weill Cornell Medicine by Paul Zumbo, Luce Skrabanek & Friederike Dündar.
 Don't hesitate to [get in touch](https://abc.med.cornell.edu/) with questions related to the code and the analysis.
+
+![](WCM_MB_LOGO_HZSS1L_CLR_RGB.png)
