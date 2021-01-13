@@ -1,5 +1,7 @@
 # Methods and VCF files related to Fassel, Chen, Ruise, Kumar, DeSancho and Hajjar (2021). Blood.
 
+>Individual VCF files can be found in [`variants/`](variants).
+
 The Applied Bioinformatics Core analyzed DNA sequencing data generated after long-range PCR of the AnnexinA2 (ANXA2) gene.
 There were 18 samples from three different groups of patients: 
 
@@ -24,7 +26,7 @@ The `makefile` in [`processing/`](processing) contains the details of the code.
 
 ## Results
 
-The individual VCF files can be found in [`variants/`](variants)
+The individual VCF files can be found in [`variants/`](variants).
 
  ![](figures/anxa2_locus.png)
 
