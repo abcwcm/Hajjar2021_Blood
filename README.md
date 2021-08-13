@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4437540.svg)](https://doi.org/10.5281/zenodo.4437540)
 
-# Methods and VCF files related to Fassel, Chen, Ruise, Kumar, DeSancho and Hajjar (2021). Blood.
+# Methods and VCF files related to [Fassel, Chen, Ruise, Kumar, DeSancho and Hajjar (2021), Blood](https://pubmed.ncbi.nlm.nih.gov/33512476/).
 
 >Individual VCF files can be found in [`variants/`](variants).
 
